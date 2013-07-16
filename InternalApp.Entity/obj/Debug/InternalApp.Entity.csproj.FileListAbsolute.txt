@@ -1,0 +1,10 @@
+E:\PersonalCode\MySoft\InternalApp_20130701\InternalApp.Entity\obj\Debug\ResolveAssemblyReference.cache
+E:\PersonalCode\MySoft\InternalApp_20130701\WebSite1\Bin\InternalApp.Entity.dll
+E:\PersonalCode\MySoft\InternalApp_20130701\WebSite1\Bin\InternalApp.Entity.pdb
+E:\PersonalCode\MySoft\InternalApp_20130701\InternalApp.Entity\obj\Debug\InternalApp.Entity.dll
+E:\PersonalCode\MySoft\InternalApp_20130701\InternalApp.Entity\obj\Debug\InternalApp.Entity.pdb
+E:\PersonalCode\MySoft\InternalApp_20130705\WebSite1\Bin\InternalApp.Entity.dll
+E:\PersonalCode\MySoft\InternalApp_20130705\WebSite1\Bin\InternalApp.Entity.pdb
+E:\PersonalCode\MySoft\InternalApp_20130705\InternalApp.Entity\obj\Debug\ResolveAssemblyReference.cache
+E:\PersonalCode\MySoft\InternalApp_20130705\InternalApp.Entity\obj\Debug\InternalApp.Entity.dll
+E:\PersonalCode\MySoft\InternalApp_20130705\InternalApp.Entity\obj\Debug\InternalApp.Entity.pdb
