@@ -3,8 +3,8 @@ E:\PersonalCode\MySoft\InternalApp_20130701\WebSite1\Bin\InternalApp.Controller.
 E:\PersonalCode\MySoft\InternalApp_20130701\WebSite1\Bin\InternalApp.Controller.pdb
 E:\PersonalCode\MySoft\InternalApp_20130701\InternalApp.Controller\obj\Debug\InternalApp.Controller.dll
 E:\PersonalCode\MySoft\InternalApp_20130701\InternalApp.Controller\obj\Debug\InternalApp.Controller.pdb
+E:\PersonalCode\MySoft\InternalApp_20130705\InternalApp.Controller\obj\Debug\ResolveAssemblyReference.cache
 E:\PersonalCode\MySoft\InternalApp_20130705\WebSite1\Bin\InternalApp.Controller.dll
 E:\PersonalCode\MySoft\InternalApp_20130705\WebSite1\Bin\InternalApp.Controller.pdb
-E:\PersonalCode\MySoft\InternalApp_20130705\InternalApp.Controller\obj\Debug\ResolveAssemblyReference.cache
 E:\PersonalCode\MySoft\InternalApp_20130705\InternalApp.Controller\obj\Debug\InternalApp.Controller.dll
 E:\PersonalCode\MySoft\InternalApp_20130705\InternalApp.Controller\obj\Debug\InternalApp.Controller.pdb

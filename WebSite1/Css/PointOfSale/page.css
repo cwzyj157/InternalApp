@@ -1,0 +1,353 @@
+﻿html, body {
+	margin: 0;
+	padding: 0;
+}
+
+/* 页头样式 */
+.header {
+	background: url("/images/gb.png") repeat-x scroll left bottom transparent;
+	padding: 0 0 4px;
+}
+.header .header-l {
+	margin: 10px 12px 0 0;
+	padding: 0;
+}
+.header-l a:link, .header-l a:visited {
+	display: block;
+	height: 26px;
+	overflow: hidden;
+	width: 100px;
+	color: #328cfb;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+}
+.nav {
+	display: inline;
+}
+.header .nav li {
+	float: left;
+}
+.header .nav a:link, .header .nav a:visited {
+	display: inline-block;
+	padding: 9px 12px;
+	color: #333;
+	font-size: 14px;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 18px;
+	text-decoration: none;
+	font-weight: normal;
+	white-space: nowrap;
+}
+.header .nav a:hover {
+	background-color: #e5e6e8;
+	background-image: linear-gradient(top, #f4f5f6 0%, #d4d6d9 100%);
+}
+.nav li {
+	list-style: none;
+}
+.header-u {
+	/*margin-right: 80px;*/
+	width: 200px;
+}
+.header-u span {
+	padding: 9px;
+	display: inline;
+	color: #333333;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 18px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+/*固定宽度*/
+.fixWidth {
+	margin: 0 auto; /*width: 1210px;*/
+	padding: 0px 100px 0px 100px;
+}
+
+/*menu 下拉*/
+.dmenu {
+	position: absolute;
+	background-clip: padding-box;
+	background-color: white;
+	border-radius: 2px 2px 2px 2px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+	z-index: 1000;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: #ccc 1px solid;
+}
+.dmenu-PointOfSale {
+	min-width: 80px;
+	width: 80px;
+}
+
+/* menu.aspx*/
+
+.padding-right {
+	padding-right: 10px;
+}
+
+.divMenu {
+	background-color: #F0F0F0;
+	height: 250px;
+	width: 150px;
+	border-radius: 2px 2px 2px 2px;
+	display: inline; /*margin-right: 45px;     margin-top: 15px;*/
+	text-align: left;
+	margin: 15px 15px 15px 15px;
+}
+.divMenu .divTitle {
+	width: 150px;
+	height: 70px;
+}
+.divMenu img {
+	height: 150px;
+	width: 150px;
+}
+.divMenu span {
+	cursor: pointer;
+	display: block;
+	padding: 10px 0 0 2px;
+	text-align: left;
+}
+.spanTitle {
+	color: Red;
+	font-size: 14px;
+	font-weight: bold;
+}
+.divMenu .padding-top {
+	padding-top: 10px;
+}
+.divMenu .divMargin {
+	margin-top: 30px;
+}
+.btn {
+	border-collapse: collapse;
+	border-radius: 2px 2px 2px 2px;
+	border-spacing: 0;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: normal;
+	line-height: 18px;
+	overflow: visible;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	white-space: nowrap;
+	font-size: 14px;
+	margin-right: 12px;
+	padding: 5px 18px;
+	background-color: #0072C5;
+	border: 1px solid #0061BC;
+	color: #FFFFFF;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.btn1 {
+	background-color: #EEF4FE;
+	border: 1px solid #92979E;
+	border-collapse: collapse;
+	border-radius: 2px 2px 2px 2px;
+	border-spacing: 0;
+	color: #333333;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 18px;
+	margin-right: 12px;
+	overflow: visible;
+	padding: 5px 18px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	white-space: nowrap;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+/* orderlist.aspx */
+.GridView_HeaderStyle {
+	background-color: #EFF0F2;
+	color: Black;
+	height: 25px;
+	margin-left: 4px;
+	margin-right: 4px;
+	text-align: center;
+	word-break: keep-all;
+}
+.GridView_AlternatingRowStyle {
+	background-color: #EFF0F2;
+	height: 30px;
+	text-align: center;
+}
+.GridView_RowStyle {
+	background-color: #FFFFFF;
+	height: 30px;
+	text-align: center;
+}
+.GridView_AlternatingRowStyle img, .GridView_RowStyle img {
+	border: 0 none;
+}
+.divOrderList {
+	padding: 10px 0px 0px 10px;
+	margin-top: 15px;
+}
+.s-Label {
+	float: left;
+	font-weight: bold;
+	line-height: 18px;
+	overflow: visible;
+	padding: 7px 1px;
+	text-decoration: none;
+	vertical-align: middle;
+	white-space: nowrap;
+	font-size: 14px;
+	color: #222222;
+	font-family: arial;
+}
+.div-date {
+	float: left;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #92979E;
+	height: 24px;
+	line-height: 18px;
+	padding: 2px 0px 1px 2px;
+	vertical-align: middle;
+	width: 190px;
+}
+.div-date .input-date {
+	background-color: #FFFFFF;
+	height: 22px;
+	border: 0 none;
+	font-size: 14px;
+	height: 22px;
+	line-height: 20px;
+	padding: 0;
+	white-space: nowrap;
+}
+.div-date .combo-arrow {
+	background: url("/images/datebox_arrow.png") no-repeat scroll center center transparent;
+	cursor: pointer;
+	display: inline-block;
+	height: 22px;
+	opacity: 0.6;
+	overflow: hidden;
+	vertical-align: top;
+	width: 18px;
+}
+.divOrderList .margin-left {
+	margin-left: 10px;
+}
+#divResultList {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	width: 100%;
+	padding: 10px;
+}
+
+.divOrderList .group {
+	margin-right: 5px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.divOrderList .group a:link, .divOrderList .group a:visited {
+	color: #333333;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 18px;
+	padding: 5px 10px;
+	text-decoration: none;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+.divOrderList .group .btnType {
+	background-color: #EDEEF0;
+	border: 1px solid #92979E;
+	border-collapse: collapse;
+	border-radius: 2px 2px 2px 2px;
+	border-spacing: 0;
+	color: #333333;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 18px;
+	height: 18px;
+	overflow: visible;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+.divOrderList .group .width {
+	width: 105px;
+}
+.divOrderList .group .margin-left {
+	margin-left: -5px;
+}
+.divOrderList .group .margin-left1 {
+	margin-left: -1px;
+}
+.divOrderList .group ul li {
+}
+
+.divOrderList .margin-right {
+	margin-right: 10px;
+}
+.divOrderList .group .caret {
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid #6E6E6E;
+	display: inline-block;
+	height: 0;
+	line-height: 0;
+	overflow: hidden;
+	vertical-align: top;
+	width: 0;
+	margin: 7px 0 0;
+}
+.divOrderList .group a:hover {
+	background-color: #e5e6e8;
+	background-image: linear-gradient(top, #f4f5f6 0%, #d4d6d9 100%);
+}
+.divOrderList .group li a {
+	width: 100px;
+	text-align: left;
+}
+
+
+/* 公共样式 */
+.color {
+	color: #FF9900;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.width {
+	width: 100%;
+}
